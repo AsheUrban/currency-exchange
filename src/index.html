@@ -1,23 +1,57 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title>Dev Environment Project Set-Up</title>
+  <title>Currency Exchange App</title>
 </head>
 <body>
   <div class="container">
-      <h2>My Example Project</h2>
-    <form id="example-form">
+      <h2>Convert USD to Five Foreign Currencies</h2>
+    <form id="currency-xchange">
       <div class="form-group">
-        <p>This is just a test!</p>
-        <textarea id="number" name="number" class="form-control"></textarea>
+        <p>Placeholder text!</p>
+        <textarea id="usd" name="usd" class="form-control"></textarea>
         <br>
-        <textarea id="text" name="text" class="form-control"></textarea>
-        <br>
+        
+        <div class="radio form-check-inline">
+        <label for="radio">Select Foreign Currency:
+        </label>
+      </div>
+      <div class="radio form-check-inline">
+        <label>
+          <input type="radio" name="operator" value="X">
+          X
+        </label>
+      </div>
+      <div class="radio form-check-inline">
+        <label>
+          <input type="radio" name="operator" value="Y">
+          Y
+        </label>
+      </div>
+      <div class="radio form-check-inline">
+        <label>
+          <input type="radio" name="operator" value="Z">
+          Z
+        </label>
+      </div>
+      <div class="radio form-check-inline">
+        <label>
+          <input type="radio" name="operator" value="A">
+          A
+        </label>
+      </div>
+      <div class="radio form-check-inline">
+        <label>
+          <input type="radio" name="operator" value="B">
+          B
+        </label>
+      </div>
+
         <button type="submit" class="btn btn-success" value="Reset">Submit</button>
       </div>
     </form>
-    <p>Return Phrase: <span id="output"></span></p>
+    <p>Total: <span id="output"></span></p>
     <br>
   </div>
 </body>
-</html> -->
+</html>
