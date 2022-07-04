@@ -13,13 +13,19 @@
 * _API Key_
 
 ## Description
+_"A user should be able to type in an amount (in U.S. dollars) and then choose which currency it should be converted to (such as francs, marks, rupees, and so on). To determine the most recent exchange rate, your application will make an API call to the following exchange rate API."_
 
+_link to project details:_ https://epicenter.epicodus.com/courses/967/code_reviews/5854 
+
+_Link to project in github:_ https://github.com/AsheUrban/currency-exchange.git
+
+_Link to ExchangeRate API sign-up:_ https://www.exchangerate-api.com/
 
 ## Setup/Installation Requirements
 
-* _visit ExchangeRate-API_
+* _visit ExchangeRate-API (link above)_
 * _Sign up to recieve a free key_
-* _Clone or dl project and once updates are made to package.json & webpack, touch .env and add file to .gitignore_
+* _Clone or dl project from github(link above) and once updates are made to package.json & webpack, touch .env and add file to .gitignore_
 * _Once updates are made, npm run install_
 * _Once installed, npm run build_
 
