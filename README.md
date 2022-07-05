@@ -25,7 +25,7 @@ _Link to ExchangeRate API sign-up:_ https://www.exchangerate-api.com/
 
 * _visit ExchangeRate-API (link above)_
 * _Sign up to recieve a free key_
-* _Clone or dl project from github(link above) and once updates are made to package.json & webpack, touch .env and add file to .gitignore_
+* _Clone or dl project from github(link above) and once updates are made to package.json & webpack, touch .env, npm install dotenv-webpack@2.0.0 --save-dev, and add file to .gitignore_
 * _Once updates are made, npm run install_
 * _Once installed, npm run build_
 
