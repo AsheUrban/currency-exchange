@@ -31,8 +31,8 @@ _Link to ExchangeRate API sign-up:_ https://www.exchangerate-api.com/
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _API KEY works in console and postman, but is returning an error of invalid key when used in my application._
+
 
 ## License
 * MIT

@@ -8,12 +8,12 @@
       <h2>Convert USD to Five South American Currencies</h2>
     <form id="currency-xchange">
       <div class="form-group">
-        <p>USD $:</p>
+        <p>ENTER AMOUNT IN USD:</p>
         <textarea id="usd" name="usd" class="form-control"></textarea>
         <br>
         
         <div class="radio form-check-inline">
-        <label for="radio">Select Foreign Currency:
+        <label for="radio">SELECT CURRENCY:
         </label>
       </div>
       <div class="radio form-check-inline">
@@ -47,10 +47,11 @@
         </label>
       </div>
 
-        <button type="submit" class="btn btn-success" value="Reset">Submit</button>
+        <button class="btn btn-success" id="currency-xchange">Submit</button>
       </div>
     </form>
-    <p>Total: <span id="output"></span></p>
+    <p>TOTAL: <span class="output"></span></p>
+    <span class="showErrors"></span></p>
     <br>
   </div>
 </body>
