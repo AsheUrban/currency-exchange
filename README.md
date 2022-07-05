@@ -31,7 +31,6 @@ _Link to ExchangeRate API sign-up:_ https://www.exchangerate-api.com/
 
 ## Known Bugs
 
-* _API KEY works in console and postman, but is returning an error of invalid key when used in my application._
 * _Doesn't account for "invalid" currency options... yet._
 
 
