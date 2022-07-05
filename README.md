@@ -31,8 +31,7 @@ _Link to ExchangeRate API sign-up:_ https://www.exchangerate-api.com/
 
 ## Known Bugs
 
-* _Doesn't account for "invalid" currency options... yet._
-
+* _None_
 
 ## License
 * MIT
