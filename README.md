@@ -23,11 +23,18 @@ _Link to ExchangeRate API sign-up:_ https://www.exchangerate-api.com/
 
 ## Setup/Installation Requirements
 
-* _visit ExchangeRate-API (link above)_
-* _Sign up to recieve a free key_
-* _Clone or dl project from github(link above) and once updates are made to package.json & webpack, touch .env, npm install dotenv-webpack@2.0.0 --save-dev, and add file to .gitignore_
-* _Once updates are made, npm run install_
-* _Once installed, npm run build_
+* Visit ExchangeRate-API _(link above)_
+* Sign up to recieve a free key
+* Clone or dl project from github _(link above)_
+* Create .env file in root directory, add API_KEY=YOUR API KEY GOES HERE _(see note 1. below)_
+* Add .env file to github before pushing any changes!
+* Use ${process.env.API_KEY} to call on your key where needed _(see note 2. below)_
+* Once any necessary updates are made, npm run install
+* Once installed, npm run build
+
+# Notes: 
+1. API_KEY= must adhere to this capitalization/format!
+2. EX: https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/pair/USD/${operator}/${usd}
 
 ## Known Bugs
 
