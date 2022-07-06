@@ -32,7 +32,7 @@ _Link to ExchangeRate API sign-up:_ https://www.exchangerate-api.com/
 * Once any necessary updates are made, npm run install
 * Once installed, npm run build
 
-# Notes: 
+### Notes: 
 1. API_KEY= must adhere to this capitalization/format!
 2. EX: https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/pair/USD/${operator}/${usd}
 
