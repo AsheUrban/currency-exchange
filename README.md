@@ -34,7 +34,7 @@ _Link to ExchangeRate API sign-up:_ https://www.exchangerate-api.com/
 
 ### Notes: 
 1. API_KEY= must adhere to this capitalization/format!
-2. EX: https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/pair/USD/${operator}/${usd}
+2. EX: https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/pair/USD/CLP/10
 
 ## Known Bugs
 
